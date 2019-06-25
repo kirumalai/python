@@ -1,5 +1,5 @@
 char=input()
 if(char>='a' and char<='z'):
-    print("Alphabet")
+      print("Alphabet")
 else:
-    print("No")
+      print("No")
