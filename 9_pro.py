@@ -1,2 +1,2 @@
-k=int(input())
-print(k)
+get_inp=int(input())
+print(get_inp)
