@@ -1,2 +1,2 @@
-st1,st2=input().split()
-print(st1+st2)
+hjt,hjt1=input().split()
+print(hjt+hjt1)
