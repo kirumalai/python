@@ -1,5 +1,5 @@
 k_inp=int(input())
-m_inp=pow(2,at1)
+m_inp=pow(2,k_inp)
 arr=[]
 for i in range(m_inp):  
     mt1=bin(i).replace("0b","")
