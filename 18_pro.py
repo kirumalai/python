@@ -1,5 +1,5 @@
 mat_row,mat_col=map(int,input().split())
-l1t=[]
+con=[]
 for _ in range(mat_row):
     con.append(input())
 for ic in range(len(con)):
