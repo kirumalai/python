@@ -1,0 +1,9 @@
+size_arr=int(input())
+put_list=list(map(int,input().split()))[:size_arr]
+div=int(size_arr/2)
+sub_arr1=sum(put_list[:div])//len(put_list[:div])
+sub_arr2=sum(put_list[div:])//len(put_list[div:])
+if(sub_arr1==sub_arr2):
+  print("yes")
+else:
+  print("no")
