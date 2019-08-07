@@ -7,7 +7,7 @@ for i in range(inp1):
     xt=inp4[i]/inp3[i]
     arr.append(xt)
 while inp2>=0 and len(arr)>0:
-    mindex=qrt.index(max(arr))
+    mindex=arr.index(max(arr))
     if inp2>=inp3[mindex]:
         art=art+inp4[mindex]
         inp2=inp2-inp3[mindex]
